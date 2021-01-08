@@ -12,7 +12,12 @@ header {
 }
 
 .Username {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
 }
