@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.new-tweet {
+
+}
+
+button {
+  display: flex;
+  background-color: #4056A1;
+  font-family: "Bungee";
+  color: #ffffff;
+}
+
+.counter {
+  
+}
