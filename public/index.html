@@ -28,6 +28,7 @@
     <!-- Top nav bar (fixed) -->
     <nav>
       <span>tweeter: a better way to spew vitriol</span>
+      <h4><strong>Write</strong> a new tweet</h4>
     </nav>
 
     <header>
@@ -42,9 +43,10 @@
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
-        <h2>Compose Tweet</h2>
-        <form>
-          <label for="tweet-text">What are you humming about?</label>
+        <form method="POST" action="/tweets">
+          <div>
+            <label for="tweet-text">What are you humming about?</label>
+          </div>
           <textarea name="text" id="tweet-text"></textarea>
           <div>
             <button type="submit">Tweet</button>
