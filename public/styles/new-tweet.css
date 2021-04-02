@@ -1,10 +1,11 @@
 .container {
   display: flex;
   justify-content: center;
+  border: 1px solid black;
 }
 
-.new-tweet {
-
+#tweet-text {
+  width: 400px;
 }
 
 button {
@@ -15,5 +16,5 @@ button {
 }
 
 .counter {
-  
+  color: red;
 }
